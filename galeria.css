@@ -1,0 +1,443 @@
+* {
+	font-family: 'Roboto Condensed', sans-serif; 
+	box-sizing: border-box;
+	color: white;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+}
+
+header {
+	background-color: #bc2d37;
+	width: 100%;
+	z-index: 100;
+	position: fixed;
+}
+
+h1 {
+	font-size: 40px;
+} 
+
+
+h2 {
+	color: #FFC738;
+	font-size: 35px;
+	font-weight: lighter;
+	padding-left: 50px;
+}
+
+h3 {
+	font-size: 30px;
+	padding: 0;
+}
+
+.title {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin-left: 50px;
+	z-index: 200;
+}
+
+@media screen and (max-width: 600px) {
+	.title {
+		width: 50%;
+		float: none;
+	}
+}
+
+.logo {
+	width: 100%;
+}
+
+
+.line {
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	margin-top: 50px; 
+}
+
+
+.About {
+	margin: 100px;
+	color: white;
+	font-size: 20pt;
+	opacity: 1;
+}
+
+.AboutPage {
+	width: 100%;
+	background: no-repeat url("../images/Mural.jpg") center center fixed;
+	background-size: cover;
+	min-height: 600px;
+
+
+}
+
+
+.OpportunitiesPage {
+	width: 100%;
+	background: no-repeat url("../images/SS_2.jpg") center center fixed;
+	background-size: cover;
+	min-height: 600px;
+
+
+}
+
+
+.Opportunities {
+	margin: 5px;
+	color: white;
+	font-size: 20pt;
+	opacity: 1;
+	
+}
+
+
+.OpportunitiesList {
+	display: inline-flex;
+	list-style: none;
+
+	li h2 {
+		padding: 0px;
+	}
+
+
+}
+.Opportunities h2 {
+		padding: 10px;
+	
+
+
+}
+
+
+.ProjectsPage {
+	width: 100%;
+	background: no-repeat url("../images/Youth.png") center center fixed;
+	background-size: cover;
+	min-height: 600px;
+
+
+}
+
+.Projects {
+	margin: 5px;
+	color: white;
+	font-size: 20pt;
+	opacity: 1;
+	
+}
+
+.ProjectsText {
+	margin: 50px;
+}
+
+
+.InternshipsContent {
+	margin: 5px 100px 5px 100px;
+
+}
+
+.VolunteerContent {
+	margin: 5px 100px 5px 100px;
+
+}
+
+
+
+.bg1 {
+	opacity: .3;
+
+}
+
+.Donate {
+	font-size: 24px;
+}
+
+.Donate, h1 {
+	margin: 50px;
+}
+
+.Shop {
+	font-size: 20px;
+	padding: 20px;
+}
+
+.Events {
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+.prints {
+	padding: 30px;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+}
+
+.prints1 {
+	width: 50%;
+	float: left;
+}
+
+.prints1 img {
+	width: 50%;
+}
+
+.Events1 {
+	padding: 30px;
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+
+}
+
+.Events2 {
+	width: 50%;
+	float: left;
+
+}
+
+.details {
+	width: 50%;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+}
+
+
+.captions {
+	width: 50%;
+	float: left;
+	padding: 20px;
+	font-size: 20px;
+}
+
+
+.caption {
+	width: 100%;
+	font-size: 20px;
+	float: none;
+	padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+	.prints1, .captions {
+		width: 100%;
+		float: none;
+	}
+
+	.prints1 img {
+		width: 100%;
+	}
+}
+
+
+.Event {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	z-index: 150;
+}
+
+   .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 5px;
+      }
+}
+
+
+
+
+.contact {
+	padding: 70px;
+	width: 75%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 4px solid #4F8C90;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #4F8C90;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: black;
+ 
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.container {
+	background-color: lightgrey;
+	margin-top: 100px;
+	/*font-color: black;*/
+}
+
+.btn {
+  background-color: #4F8C90;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #bc2d37;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+
+}
+
+
+.DonateButton {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.mainNav {
+				position: fixed;
+				top: 0;
+				/*padding-top: 87px;*/
+				width: 100%;
+				z-index: 100;
+				text-align: center;
+				background-color: #bc2d37;
+				padding: 10px;
+				
+			}
+
+.mainNav a { 
+				font-size: 24px;
+				color: white;
+				padding: 20px;
+				text-decoration: none; 
+				display: inline-block;
+				float: right;
+				
+			 }
+
+
+
+.map {
+	text-align: center;
+	position:relative;
+	font-size: 36px;
+}
+
+.bottommenu {
+	width: 100%;
+	float: left;
+	background-color: #4F8C90;
+	margin-top: 50px;
+
+}
+
+
+.rightmenu {
+	font-size: 15pt;
+	float: right;
+	margin-right: 40px;
+	width: 15%;
+	
+}
+
+@media screen and (max-width: 1200px) {
+	.rightmenu {
+		width: 100%;
+		float: none;
+		padding-right: 30px;
+		text-align: right;
+	}
+}
+
+
+
+.mainNav .icon {
+			 	display: none;
+			 }
+
+
+@media screen and (max-width:1250px) {
+ 	.mainNav a {display: none;}
+ 	.mainNav a.icon {float:right; display:block;}
+ }
+
+@media screen and (max-width: 1200px) {
+ 	.mainNav.responsive {position: relative;}
+ 	.mainNav.responsive .icon {
+ 		position: absolute;
+ 		right: 0;
+ 		top: 0;
+}
+
+.mainNav.responsive a {
+	float: none;
+	display: block;
+	text-align: right;
+}
